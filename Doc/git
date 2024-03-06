@@ -1,2 +1,19 @@
 * update remote : 
   git remote set-url origin git@github.com:tonymoonkr/all.git
+
+* git conflic : 
+   git config pull.rebase true   # rebase
+   git pull origin main  # pull origin 
+
+example) 
+
+commit f420d7528dd11a50ee3f0484ada5f2f4c438aab2 (HEAD -> main)
+Author: tony.moon <tony.moon.kr@gmail.com>
+Date:   Wed Mar 6 23:30:20 2024 +0100
+
+    init readme test
+
+commit 64bebc071b751680b69c106983b174007ca09e6c (origin/main)
+Author: tonymoon@germany <tony.moon.kr@gmail.com>
+Date:   Wed Mar 6 23:29:27 2024 +0100
+  
